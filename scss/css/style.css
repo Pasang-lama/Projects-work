@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,400&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  background-color: #f1f1f1;
+}
+
+.marquee {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.top {
+  background-color: #088f33;
+  padding: 5px;
+  height: 35px;
+}
+
+.top .icons ul {
+  list-style: none;
+}
+
+.top .icons ul li {
+  display: inline;
+  text-align: center;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  padding: 0px 6px 2px;
+  margin: 7px;
+}
+
+.top .icons ul li a {
+  text-decoration: none;
+  color: #088f33;
+  font-size: 12px;
+}
+
+.top ul {
+  list-style: none;
+}
+
+.top ul li {
+  display: inline;
+  padding: 5px;
+}
+
+.top ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.top .icons ul .facebook:hover {
+  background-color: #3b5997;
+  color: white;
+}
+
+.top .icons ul .google:hover {
+  background-color: red;
+  color: white;
+}
+
+.top .icons ul .twitter:hover {
+  background-color: #29c5f6;
+  color: white;
+}
+
+.info {
+  font-size: 12px;
+}
+
+.logo {
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  top: -40px;
+  border: 3px solid #ed7702;
+  z-index: 5;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background: #0b732b !important;
+  padding: 0% !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  padding: 25px 2px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: orange;
+  color: white;
+}
+
+.w-100 {
+  height: 600px !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0%;
+  bottom: 1.25rem;
+  top: 30%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: right !important;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+  background-color: #0d772f;
+  padding: 10px 25px;
+  color: #fff;
+  display: inline-block;
+}
+
+.carousel-caption a:hover {
+  color: #fff;
+  background-color: #ed7701;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 4rem;
+  height: 8rem;
+  font-weight: 1000;
+  font-style: bold;
+}
+
+.text {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.section1 {
+  position: relative;
+}
+
+.view {
+  background-color: orange;
+  text-align: center;
+  color: white;
+  position: absolute;
+  right: 20px;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+
+.view:hover {
+  background-color: green;
+}
+
+.title {
+  background-color: green;
+  line-height: 20px;
+  font-size: 0%;
+  padding: 10px;
+  display: inline-block;
+  color: #fff;
+}
+
+.pkg ul .feautured-packages-lists:hover {
+  text-decoration: underline;
+}
+
+.specialities {
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  -webkit-box-shadow: 0px 1px 16px #2e2c2d;
+          box-shadow: 0px 1px 16px #2e2c2d;
+}
+
+.specialities:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.specialities:hover p {
+  background-color: green;
+}
+
+.specialities a {
+  text-decoration: none;
+}
+
+.specialities img {
+  width: 100%;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  vertical-align: middle;
+}
+
+.specialities p {
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5px;
+}
+
+.trip {
+  margin: 10px;
+}
+
+.trip .banner {
+  position: relative;
+}
+
+.trip .banner:hover .dollars {
+  display: inline;
+  opacity: 1;
+  z-index: 999;
+}
+
+.trip .dollars {
+  position: absolute;
+  padding: 10px 15px;
+  color: #fff;
+  background-color: orange;
+  top: 0px;
+  right: 12px;
+  display: none;
+}
+
+.trip a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px;
+  text-align: left;
+}
+
+.trip a .image {
+  width: 100%;
+}
+
+.trip a .image:hover {
+  opacity: 0.5;
+}
+
+.trip .footers {
+  position: absolute;
+  bottom: 0px;
+  padding: 0px 12px;
+  width: 440px;
+  height: 40px;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+.trip .footers .text {
+  background-color: green;
+}
+
+.trip .footers .days {
+  background-color: orange;
+}
+
+.testimonial h5 {
+  text-align: center;
+  color: green;
+  font-weight: 500;
+}
+
+.testimonial .testimonial-wrap {
+  background-image: url("https://www.plannepal.com/assets/img/testimonials/clients.jpg");
+  background-repeat: none;
+  background-size: cover;
+  padding: 20px 10px 0px;
+  color: white;
+}
+
+.testimonial .testimonial-wrap h5 {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+
+.testimonial .testimonial-wrap p {
+  text-align: center;
+}
+
+.testimonial .testimonial-wrap .carousel-indicators button {
+  background-color: transparent;
+  border: 2px solid orange;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.testimonial .testimonial-wrap .carousel-indicators .active {
+  background: orange;
+}
+
+.testimonial .accordion-item {
+  margin: 5px;
+}
+
+.testimonial .accordion-button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+.testimonial .accordion-body {
+  background-color: #fff;
+  font-size: 14px;
+  text-align: left;
+  padding: 20px;
+}
+
+.testimonial .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: green;
+  padding: 10px;
+}
+
+.testimonial .accordion-button:not(.collapsed)::after {
+  background-image: none;
+  rotate: none;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.testimonial .accordion-button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.testimonial .accordion-button::after {
+  content: "\003E";
+  background-image: none;
+}
+
+.main-footer {
+  color: white;
+  margin-top: 30px;
+  background: #333333;
+  font-weight: 600;
+}
+
+.main-footer ul {
+  list-style: none;
+}
+
+.main-footer ul li {
+  color: #ccc;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.main-footer ul li .btn {
+  background: orange;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 0%;
+}
+
+.main-footer ul li .btn i {
+  margin-right: 10px;
+}
+
+.main-footer ul li .btn:hover {
+  background: green;
+  color: white;
+}
+
+.main-footer ul li a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.main-footer ul li a:hover {
+  color: orange;
+}
+
+.main-footer ul li a h3 {
+  font-size: 14px;
+  margin: 20px 0px;
+}
+
+.main-footer ul li a h3:hover {
+  color: #ccc;
+}
+
+.main-footer .text h3 {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.main-footer .lower {
+  padding-bottom: 50px;
+}
+
+.main-footer .lower h5 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.main-footer .lower img {
+  display: block;
+}
+
+.copyright {
+  background: green;
+  line-height: 50px;
+  color: #ccc;
+  font-weight: 600;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.copyright a:hover {
+  color: #ed7701;
+}
+/*# sourceMappingURL=style.css.map */
